@@ -7,25 +7,7 @@ The [Home Credit Group](https://en.wikipedia.org/wiki/Home_Credit) operates in n
 The objective for this project is to predict which loans provided by Home Credit Group will be past due (ie. including both late payments and defaults).
 
 # Summary of Findings
-* Final model 
-
-### Usage Instructions
-* * Project code housed in Jupyter notebooks in the following order:
-  01 Application_train data cleaning + EDA.ipynb
-  02 Application_train modelling.ipynb
-  03 Modelling using features from other tables.ipynb
-* Each notebook starts with a high level summary of the key findings for the corresponding notebook 
-
-### Key File Names
-* Notebook files: 
-    01 Risk_eval data cleaning + EDA.ipynb  
-    02 Risk_eval modelling.ipynb  
-    03 Features from other tables.ipynb  
-* Python libraries (numbers correspond to notebooks): ./utils/libraries01 and libraries02_03
-* Functions: ./utils/functions.py
-
 ### Final Model
-
 The final model included 29 features. The top ones, in reverse order of importance, were:
 * _Two features for normalized scores from an external data source not further identified in data dictionary_
 * Kind of goods the client applied for in the previous application
@@ -46,5 +28,21 @@ The final model included 29 features. The top ones, in reverse order of importan
 * Income
 * Approximate hour the client applied
 * Number of previous applications
+
+### Usage Instructions
+* * Project code housed in Jupyter notebooks in the following order:
+  01 Application_train data cleaning + EDA.ipynb
+  02 Application_train modelling.ipynb
+  03 Modelling using features from other tables.ipynb
+* Each notebook starts with a high level summary of the key findings for the corresponding notebook 
+
+### Key File Names
+* Notebook files: 
+    01 Risk_eval data cleaning + EDA.ipynb  
+    02 Risk_eval modelling.ipynb  
+    03 Features from other tables.ipynb  
+* Python libraries (numbers correspond to notebooks): ./utils/libraries01 and libraries02_03
+* Functions: ./utils/functions.py
+
 
 
