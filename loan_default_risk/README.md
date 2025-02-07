@@ -23,3 +23,28 @@ The objective for this project is to predict which loans provided by Home Credit
     03 Features from other tables.ipynb  
 * Python libraries (numbers correspond to notebooks): ./utils/libraries01 and libraries02_03
 * Functions: ./utils/functions.py
+
+### Final Model
+
+The final model included 29 features. The top ones, in reverse order of importance, were:
+* _Two features for normalized scores from an external data source not further identified in data dictionary_
+* Kind of goods the client applied for in the previous application
+* Client age in days
+* Loan annuity
+* Registration age in days
+* Number of days before the application the client changed their identity document with which he applied for the loan
+* Number of days since last phone change
+* Credit-to-income ratio
+* Normalized population of region where client lives (higher number means the client lives in more populated region)
+* Annuity-to-income-ratio
+* Total number of days installments paid early
+* Average number of days installments paid early
+* Proportion of late payments
+* Number of days before the application the person started current employment
+* Number of installment payments
+* Number of days since last ID change
+* Income
+* Approximate hour the client applied
+* Number of previous applications
+
+
