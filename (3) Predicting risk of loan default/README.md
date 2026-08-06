@@ -8,7 +8,9 @@ The objective for this project is to predict which loans provided by Home Credit
 
 # Summary of Findings
 ### Final Model
-The final model included 29 features. The top ones, in reverse order of importance, were:
+The final model included 29 features and reached an AUC_ROC of 81%. In other words, if we randomly pick a defaulter and a non-defaulter, the model would be able to discriminate between the two classes across all thresholds (ie. to rank the defaulter as high risk) 81% of the time.
+
+The top features, in reverse order of importance, were:
 * _Two features for normalized scores from an external data source not further identified in data dictionary_
 * Kind of goods the client applied for in the previous application
 * Client age in days
